@@ -1,0 +1,77 @@
+[
+	{
+		"title": "naranjas",
+		"description": "naranjas de Argentina",
+		"code": "KWI-NZL-004",
+		"price": 10,
+		"status": true,
+		"stock": 100,
+		"category": "frutas",
+		"thumbnail": "https://cdn3.iconfinder.com/data/icons/fruits-52/150/icon_fruit_orange-512.png",
+		"id": 1
+	},
+	{
+		"title": "manzanas",
+		"description": "manzanas de Argentina",
+		"code": "KWI-NZL-005",
+		"price": 10,
+		"status": true,
+		"stock": 100,
+		"category": "frutas",
+		"thumbnail": "https://cdn3.iconfinder.com/data/icons/fruits-52/150/icon_fruit_apple-512.png",
+		"id": 2
+	},
+	{
+		"title": "peras",
+		"description": "peras de Argentina",
+		"code": "KWI-NZL-006",
+		"price": 10,
+		"status": true,
+		"stock": 100,
+		"category": "frutas",
+		"thumbnail": "https://cdn3.iconfinder.com/data/icons/fruits-52/150/icon_fruit_pear-512.png",
+		"id": 3
+	},
+	{
+		"title": "bananas",
+		"description": "bananas de Argentina",
+		"code": "KWI-NZL-007",
+		"price": 10,
+		"status": true,
+		"stock": 100,
+		"category": "frutas",
+		"thumbnail": "https://cdn3.iconfinder.com/data/icons/fruits-52/150/icon_fruit_banana-512.png",
+		"id": 4
+	},
+	{
+		"title": "limones",
+		"description": "limones de Argentina",
+		"code": "KWI-NZL-008",
+		"price": 10,
+		"status": true,
+		"stock": 100,
+		"category": "frutas",
+		"thumbnail": "https://cdn3.iconfinder.com/data/icons/fruits-52/150/icon_fruit_lemon-512.png",
+		"id": 5
+	},
+	{
+		"title": "sandias",
+		"description": "sandias de arg",
+		"code": "777",
+		"price": "110",
+		"status": "true",
+		"stock": "150",
+		"category": "frutas",
+		"id": 6
+	},
+	{
+		"title": "coco",
+		"description": "coco de arg",
+		"code": "709",
+		"price": "300",
+		"status": "true",
+		"stock": "200",
+		"category": "frutas",
+		"id": 7
+	}
+]

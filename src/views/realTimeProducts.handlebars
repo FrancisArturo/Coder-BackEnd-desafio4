@@ -17,14 +17,14 @@
     {{/if}}
 </div>
 <h4>Add a product</h4>
-<form action="/realtimeproducts" method="POST">
-    <input type="text" name="title" placeholder="title">
-    <input type="text" name="description" placeholder="description">
-    <input type="text" name="code" placeholder="code">
-    <input type="text" name="price" placeholder="price">
-    <input type="text" name="status" placeholder="status">
-    <input type="text" name="category" placeholder="category">
-    <input type="text" name="stock" placeholder="stock">
+<form id="formAdd">
+    <input type="text" name="title" placeholder="title" id="productTitle">
+    <input type="text" name="description" placeholder="description" id="productDesc">
+    <input type="text" name="code" placeholder="code" id="productCode">
+    <input type="text" name="price" placeholder="price" id="productPrice"> 
+    <input type="text" name="status" placeholder="status" id="productStatus">
+    <input type="text" name="category" placeholder="category" id="productCategory">
+    <input type="text" name="stock" placeholder="stock" id="productSt">
     <button type="submit">Add</button>
 
 <script src="/socket.io/socket.io.js"></script>

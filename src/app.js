@@ -41,8 +41,6 @@ io.on("connection", (socket) => {
             socket.emit("newProduct", {error: "Faltan datos"});
         }
         else {
-            const products = await manager.getProducts();
-            console.log(products);
             io.sockets.emit("newProduct", data);
         }
     });

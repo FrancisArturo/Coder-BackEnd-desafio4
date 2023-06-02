@@ -1,5 +1,16 @@
+<h4>Add a product</h4>
+<form id="formAdd">
+    <input type="text" name="title" placeholder="title" id="productTitle">
+    <input type="text" name="description" placeholder="description" id="productDesc">
+    <input type="text" name="code" placeholder="code" id="productCode">
+    <input type="text" name="price" placeholder="price" id="productPrice"> 
+    <input type="text" name="status" placeholder="status" id="productStatus">
+    <input type="text" name="category" placeholder="category" id="productCategory">
+    <input type="text" name="stock" placeholder="stock" id="productSt">
+    <button type="submit">Add</button>
+
 <h1>Product list</h1>
-<div>
+<div id="productContainer">
     {{#if products}}
         {{#each products}}
             <div>
@@ -16,16 +27,6 @@
         <p>No products found</p>
     {{/if}}
 </div>
-<h4>Add a product</h4>
-<form id="formAdd">
-    <input type="text" name="title" placeholder="title" id="productTitle">
-    <input type="text" name="description" placeholder="description" id="productDesc">
-    <input type="text" name="code" placeholder="code" id="productCode">
-    <input type="text" name="price" placeholder="price" id="productPrice"> 
-    <input type="text" name="status" placeholder="status" id="productStatus">
-    <input type="text" name="category" placeholder="category" id="productCategory">
-    <input type="text" name="stock" placeholder="stock" id="productSt">
-    <button type="submit">Add</button>
 
 <script src="/socket.io/socket.io.js"></script>
 <script src="/js/index.js"></script>

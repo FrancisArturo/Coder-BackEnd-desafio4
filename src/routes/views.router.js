@@ -1,10 +1,8 @@
 import { Router } from "express";
 import ProductManager from "../Manager.js";
 
-
 const router = Router();
 const manager = new ProductManager();
-
 
 
 router.get("/", async (req, res) => {
@@ -25,12 +23,6 @@ router.get("/realtimeproducts", async (req, res) => {
     } else {
         res.render("realTimeProducts", {products});
     }
-});
-
-router.post('/realtimeproducts', async (req, res) => {
-  
-
-    
 });
 
 export default router;

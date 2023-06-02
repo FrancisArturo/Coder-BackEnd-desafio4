@@ -3,6 +3,7 @@ const socket = io();
 const formAdd = document.getElementById("formAdd");
 const formEdit = document.getElementById("formEdit");
 const formDelete = document.getElementById("formDelete");
+const productContainer = document.getElementById("productContainer");
 
 const addProductTitle = document.getElementById("productTitle");
 const addProductPrice = document.getElementById("productPrice");
@@ -24,10 +25,27 @@ formAdd.addEventListener("submit", (e) => {
         status: addProductStatus.value,
         stock: addProductStock.value,
         category: addProductCategory.value  
-    };
+    }; 
     socket.emit("addProduct", data);
+    
     formAdd.reset();
 });
 
-
+socket.on("newProduct", (data) => {
+    if (data.error) {
+        alert(data.error);
+    } else {
+        productContainer.innerHTML += `
+        <div>
+            <h3> ${data.title} </h3>
+            <p>description: ${data.description} </p>
+            <p>code: ${data.code} </p>
+            <p>price: ${data.price}</p>
+            <p>status: ${data.status} </p>
+            <p>category: ${data.category}</p>
+            <p>stock: ${data.stock}</p>
+        </div>
+        `;
+    }
+});
 

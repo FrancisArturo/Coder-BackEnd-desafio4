@@ -73,5 +73,25 @@
 		"stock": "200",
 		"category": "frutas",
 		"id": 7
+	},
+	{
+		"title": "Mango",
+		"description": "mango de arg ",
+		"code": "mango-234",
+		"price": "300",
+		"status": "true",
+		"stock": "200",
+		"category": "frutas",
+		"id": 8
+	},
+	{
+		"title": "anana ",
+		"description": "anana de arg",
+		"code": "anana-254",
+		"price": "300",
+		"status": "true",
+		"stock": "50",
+		"category": "frutas",
+		"id": 9
 	}
 ]
